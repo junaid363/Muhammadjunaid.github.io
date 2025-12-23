@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kitchen Time Order Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #fafafa;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin-bottom: 5px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        form {
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #ccc;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        form input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+           box-shadow: 0 0 10px #ccc;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+        th {
+            background-color: #eee;
+        }
+        caption {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/150x50?text=Kitchen+Time+Logo" alt="Kitchen Time Logo" class="logo" />
+        <h1>GatePass / Order Sheet</h1>
+    </header>
+
+    <form>
+        <label for="distributorName">Name of Distributor:</label>
+        <input type="text" id="distributorName" name="distributorName" placeholder="Enter distributor name" />
+
+        <label for="cityName">Name of City:</label>
+        <input type="text" id="cityName" name="cityName" placeholder="Enter city name" />
+    </form>
+
+    <table>
+        <caption>Product List</caption>
+        <thead>
+            <tr>
+                <th>SR#</th>
+                <th>Product</th>
+                <th>GTN</th>
+                <th>PCG</th>
+                <th>SR</th>
+                <th>Product</th>
+                <th>GTN</th>
+                <th>PCG</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Biryani Masala 45g</td><td></td><td></td><td>57</td><td>Wazwan Pumga 1Kg</td><td></td><td></td></tr>
+            <tr><td>2</td><td>DesiKay Biryani Masala 45g</td><td></td><td></td><td>58</td><td>Buray Pumga 1Kg</td><td></td><td></td></tr>
+            <tr><td>3</td><td>Otrno Masala 150g</td><td></td><td></td><td>59</td><td>Buray Pumga 450g</td><td></td><td></td></tr>
+            <tr><td>4</td><td>Adhoni Qamasi Masala 45g</td><td></td><td></td><td>60</td><td>Isphagol Box 25g</td><td></td><td></td></tr>
+            <tr><td>5</td><td>Khaati Qamasi Masala 45g</td><td></td><td></td><td>61</td><td>Isphagol Box 50g</td><td></td><td></td></tr>
+            <tr><td>6</td><td>Yaki Quli Masala 45g</td><td></td><td></td><td>62</td><td>Isphagol Jar 25g</td><td></td><td></td></tr>
+            <tr><td>7</td><td>Broad Masala 45g</td><td></td><td></td><td>63</td><td>Isphagol Jar 100g</td><td></td><td></td></tr>
+            <tr><td>8</td><td>Chaat Masala 45g</td><td></td><td></td><td>64</td><td>Sawayari U-Pack Chanaar 445g</td><td></td><td></td></tr>
+            <tr><td>9</td><td>Chana Chaat Masala 45g</td><td></td><td></td><td>65</td><td>Sawayari U-Pack M G 100g</td><td></td><td></td></tr>
+            <tr><td>10</td><td>Fish Masala 45g</td><td></td><td></td><td>66</td><td>Sawayari U-Pack B G 100g</td><td></td><td></td></tr>
+            <tr><td>11</td><td>Haleem Masala 45g</td><td></td><td></td><td>67</td><td>Sawayari U-Pack M G 249g</td><td></td><td></td></tr>
+            <tr><td>12</td><td>Lehsan Powder 45g</td><td></td><td></td><td>68</td><td>Sawayari U-Pack Rapor M 300g</td><td></td><td></td></tr>
+            <tr><td>13</td><td>Adrak Powder 45g</td><td></td><td></td><td>69</td><td>Sawayari U-Pack Rapor B 315g</td><td></td><td></td></tr>
+            <tr><td>14</td><td>Murghi Masala 45g</td><td></td><td></td><td>70</td><td>Sawayari U-Pack M G 446g</td><td></td><td></td></tr>
+            <tr><td>15</td><td>Red Chilli Powder 50g</td><td></td><td></td><td>71</td><td>Sawayari U-Pack M F 400g</td><td></td><td></td></tr>
+            <tr><td>16</td><td>Red Chilli Flakes 50g</td><td></td><td></td><td>72</td><td>Sawayari U-Pack Flexa 100g</td><td></td><td></td></tr>
+            <tr><td>17</td><td>Haldi Powder 50g</td><td></td><td></td><td>73</td><td>Mustard Oil 45g</td><td></td><td></td></tr>
+            <tr><td>18</td><td>Garam Masala Powder 30g</td><td></td><td></td><td>74</td><td>Mustard Oil 100g</td><td></td><td></td></tr>
+            <tr><td>19</td><td>Black Pepper Powder 25g</td><td></td><td></td><td>75</td><td>Mustard Oil 200g</td><td></td><td></td></tr>
+            <tr><td>20</td><td>Coriander Powder 45g</td><td></td><td></td><td>76</td><td>Mustard Oil 450g</td><td></td><td></td></tr>
+            <tr><td>21</td><td>Biryani Double Pack 100g</td><td></td><td></td><td>77</td><td>Mustard Oil 900g</td><td></td><td></td></tr>
+            <tr><td>22</td><td>Qorma Double Pack 100g</td><td></td><td></td><td>78</td><td>Sirka 1000ml</td><td></td><td></td></tr>
+            <tr><td>23</td><td>Achaar Goshat Double Pack 100g</td><td></td><td></td><td>79</td><td>Sirka 500ml</td><td></td><td></td></tr>
+            <tr><td>24</td><td>Karahi Goshat Double Pack 100g</td><td></td><td></td><td>80</td><td>Biryani Masala Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>25</td><td>Chaat Masala Double Pack 100g</td><td></td><td></td><td>81</td><td>Qorma Masala Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>26</td><td>Red Chilli Powder Box 100g</td><td></td><td></td><td>82</td><td>Achaar Ghosht Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>27</td><td>Red Chilli Flakes Box 100g</td><td></td><td></td><td>83</td><td>Karahi Ghosht Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>28</td><td>Haldi Powder Box 100g</td><td></td><td></td><td>84</td><td>Chaat Masala Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>29</td><td>Garam Masala Powder Box 100g</td><td></td><td></td><td>85</td><td>Red Chili Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>30</td><td>Coriander Powder Box 100g</td><td></td><td></td><td>86</td><td>Haldi Sachet Rs=10</td><td></td><td></td></tr>
+            <tr><td>31</td><td>Iodized Salt 800g</td><td></td><td></td><td>87</td><td>Fish Masala Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>32</td><td>Iodized Salt 400g</td><td></td><td></td><td>88</td><td>Garam Masala Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>33</td><td>Red Chilli Powder Pouch 125g</td><td></td><td></td><td>89</td><td>Kali Mirch Sachet Rs=10/-</td><td></td><td></td></tr>
+            <tr><td>34</td><td>Red Chilli Powder Pouch 100g</td><td></td><td></td><td>90</td><td>Dhaniya Powder Sachet Rs=10</td><td></td><td></td></tr>
+            <tr><td>35</td><td>Red Chilli Powder Pouch 250g</td><td></td><td></td><td>91</td><td>Kasuri Methi Sachet Rs=10</td><td></td><td></td></tr>
+            <tr><td>36</td><td>Red Chilli Powder Pouch 200g</td><td></td><td></td><td>92</td><td>Isphaghol Sachet Rs.30</td><td></td><td></td></tr>
+            <tr><td>37</td><td>Red Chilli Flakes Pouch 100g</td><td></td><td></td><td>93</td><td>Strawberry Custard Rs.10/-</td><td></td><td></td></tr>
+            <tr><td>38</td><td>Red Chilli Flakes Pouch 200g</td><td></td><td></td><td>94</td><td>Mango Custard Rs. 10/-</td><td></td><td></td></tr>
+            <tr><td>39</td><td>Haldi Powder Pouch 125g</td><td></td><td></td><td>95</td><td>Vanilla Custard Rs. 10/-</td><td></td><td></td></tr>
+            <tr><td>40</td><td>Haldi Powder Pouch 100g</td><td></td><td></td><td>96</td><td>Banana Custard Rs. 10/-</td><td></td><td></td></tr>
+            <tr><td>41</td><td>Haldi Powder Pouch 250g</td><td></td><td></td><td>97</td><td>Biryani Masala Sachet Rs=20/-</td><td></td><td></td></tr>
+            <tr><td>42</td><td>Haldi Powder Pouch 200g</td><td></td><td></td><td>98</td><td>Qorma Masala Sachet Rs=20/-</td><td></td><td></td></tr>
+            <tr><td>43</td><td>Strawberry Custard Box Rs.50/-</td><td></td><td></td><td>99</td><td>Achaar Ghosht Sachet Rs=20/-</td><td></td><td></td></tr>
+            <tr><td>44</td><td>Mango Custard Box Rs.50/-</td><td></td><td></td><td>100</td><td>Karahi Ghosht Sachet Rs=20/-</td><td></td><td></td></tr>
+            <tr><td>45</td><td>Vanilla Custard Box Rs.50/-</td><td></td><td></td><td>101</td><td>Garam Masala Sachet Rs=20/-</td><td></td><td></td></tr>
+            <tr><td>46</td><td>Banana Custard Box Rs.50/-</td><td></td><td></td><td>102</td><td>Kali Mirch Sachet Rs=20/-</td><td></td><td></td></tr>
+            <tr><td>47</td><td>Strawberry Custard Box 120g</td><td></td><td></td><td>103</td><td>Tomato Ketchup Burger Pack</td><td></td><td></td></tr>
+            <tr><td>48</td><td>Mango Custard Box 120g</td><td></td><td></td><td>104</td><td>Tomato Ketchup Rs. 10/-</td><td></td><td></td></tr>
+            <tr><td>49</td><td>Vanilla Custard Box 120g</td><td></td><td></td><td>105</td><td>Tomato Ketchup Rs. 20/-</td><td></td><td></td></tr>
+            <tr><td>50</td><td>Banana Custard Box 120g</td><td></td><td></td><td>106</td><td>Chilli Garlic Ketchup Burger</td><td></td><td></td></tr>
+            <tr><td>51</td><td>Strawberry Custard Box 200g</td><td></td><td></td><td>107</td><td>Chilli Garlic Ketchup Rs. 10/-</td><td></td><td></td></tr>
+            <tr><td>52</td><td>Mango Custard Box 200g</td><td></td><td></td><td>108</td><td>Chilli Garlic Ketchup Rs. 20/-</td><td></td><td></td></tr>
+            <tr><td>53</td><td>Vanilla Custard Box 200g</td><td></td><td></td><td>109</td><td>Red Chilli Rs 50/-</td><td></td><td></td></tr>
+            <tr><td>54</td><td>Banana Custard Box 200g</td><td></td><td></td><td>110</td><td>Haldi Rs 50/-</td><td></td><td></td></tr>
+            <tr><td>55</td><td>Kheer Mix</td><td></td><td></td><td>111</td><td>Dhaniya Powder Rs=50</td><td></td><td></td></tr>
+            <tr><td>56</td><td>Kasuri Methi Box 20g</td><td></td><td></td><td>112</td><td>Corn Flour Box</td><td></td><td></td></tr>
+        </tbody>
+    </table>
+
+    <footer>
+        <p>Date: _____________ &nbsp;&nbsp; Time: ___________ &nbsp;&nbsp; Sign & Stamp: _____________</p>
+    </footer>
+</body>
+  </html>
